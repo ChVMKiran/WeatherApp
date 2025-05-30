@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/images/title_icon.jpg">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <h1 style="text-align:center;">Welcome to Weather Now</h1>
+    <div class="container">
+        <div class="searchsection">
+            <input type="text" placeholder="Enter city name" id="cityInput" spellcheck="false">
+            <button id="searchbutton">
+                <i class="fa fa-search"></i>
+            </button>
+        </div>
+        <div class="weatherInfo">
+            <img src="" id="weatherIcon">
+            <h2 id="cityName">--</h2>
+            <p>Condition: <span id="condition">--</span></p>
+            <p>Temperature: <span id="temperature">--</span>°C</p>
+            <p>Feels like: <span id="feelslike">--</span>°C</p>
+            <p>Humidity: <span id="humidity">--</span>%</p>
+            <p>Wind Speed: <span id="windSpeed">--</span> m/s</p>
+            <p>Precipitation: <span id="precipitation">--</span> mm</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
