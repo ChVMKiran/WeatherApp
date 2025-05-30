@@ -86,6 +86,9 @@ h1 {
 }
 
 @media (max-width: 600px) {
+    body{
+        margin: auto;
+    }
     .container {
         width: 90%;
         padding: 20px;
