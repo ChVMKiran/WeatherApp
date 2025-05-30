@@ -76,12 +76,11 @@ h1 {
 .weatherInfo h2 {
     font-size: 32px;
     font-weight: bolder;
-    /* margin-top: 10px; */
 }
 
 #weatherIcon {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     margin-top: 20px;
 }
 
