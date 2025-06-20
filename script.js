@@ -35,3 +35,5 @@ document.getElementById("cityInput").addEventListener("keydown", (event) => {
        searchButton.click();
     }
 });
+
+document.getElementById("year").innerText = new Date().getFullYear();
